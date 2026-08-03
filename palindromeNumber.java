@@ -10,6 +10,6 @@ class Solution {
             reversed=reversed*10 + digit;
             x=x/10;
         }
-        
+        return original==reversed;
     }
 }
